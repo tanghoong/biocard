@@ -7,4 +7,7 @@ export default {
     return flatRoutes('routes', defineRoutes);
   },
   serverModuleFormat: "esm",
+  publicPath: "/docs/build/",
+  assetsBuildDirectory: "docs/build",
+  serverBuildTarget: "client",
 };

@@ -4,9 +4,10 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix build",
+    "build": "remix build && npm run copy-files",
+    "copy-files": "cp -r public/* docs/ && cp build/index.html docs/",
     "dev": "remix dev --manual",
-    "start": "cross-env NODE_ENV=production node ./server.js",
+    "start": "node ./server.js",
     "typecheck": "tsc"
   },
   "dependencies": {
