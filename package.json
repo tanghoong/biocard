@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "remix build; npm run copy-files",
-    "copy-files": "Copy-Item -Path public/* -Destination docs/ -Recurse -Force; Copy-Item -Path build/index.html -Destination docs/",
+    "copy-files": "cp -R public/* docs/ && cp build/index.html docs/",
     "dev": "remix dev --manual --port 80",
     "start": "node --experimental-specifier-resolution=node --loader ts-node/esm your-server-file.ts",
     "typecheck": "tsc"
