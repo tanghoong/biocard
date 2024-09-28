@@ -15,10 +15,13 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '20'  # Use the Node.js version that matches your development environment
-    - run: npm ci
     - run: npm run build
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
+        publish_branch: gh-pages
+        publish_msg: "Deploy to GitHub Pages"
+        publish_tag: true
+        publish_commit: true
