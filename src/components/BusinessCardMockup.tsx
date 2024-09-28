@@ -6,16 +6,16 @@ const BusinessCardMockup: React.FC = () => {
     const mockData = {
       "user": {
         "name": "Charlie Tang Hoong",
-        "title": "Founder of Beam.cards, Lukis.app, Kamfu.net",
+        "title": "Software Engineer",
         "avatar": "https://picsum.photos/seed/avatar/300/300",
         "slogan": "Turning ideas into reality, one line of code at a time.",
         "social": [
           { "platform": "github", "url": "https://github.com/tanghoong", "icon": "Github" },
           { "platform": "linkedin", "url": "https://www.linkedin.com/in/tanghoong/", "icon": "Linkedin" },
           { "platform": "twitter", "url": "https://twitter.com/tanghoong", "icon": "Twitter" },
-          { "platform": "email", "url": "mailto:tang@beam.cards", "icon": "Mail" },
-          { "platform": "phone", "url": "tel:+60123456789", "icon": "Phone" },
-          { "platform": "whatsapp", "url": "https://wa.me/60123456789", "icon": "MessageCircle" }
+          { "platform": "email", "url": "mailto:hi@tanghoong.com", "icon": "Mail" },
+          { "platform": "phone", "url": "tel:+601156239249", "icon": "Phone" },
+          { "platform": "whatsapp", "url": "https://wa.me/601156239249", "icon": "MessageCircle" }
         ]
       },
       "about": {
@@ -28,9 +28,9 @@ const BusinessCardMockup: React.FC = () => {
       },
       "experience": [
         {
-          "title": "Founder & CEO",
-          "company": "Beam.cards",
-          "period": "2020 - Present",
+          "title": "Senior Business Process Support",
+          "company": "Cosco Shipping Lines",
+          "period": "2023 - 2024",
           "responsibilities": [
             "Developed and launched innovative digital business card platform",
             "Led a team of developers and designers to create a user-friendly interface",
@@ -38,31 +38,38 @@ const BusinessCardMockup: React.FC = () => {
           ]
         },
         {
-          "title": "Co-founder",
-          "company": "Lukis.app",
-          "period": "2018 - Present",
+          "title": "CTO",
+          "company": "Frenbase Sdn Bhd",
+          "period": "2022 - 2023",
           "responsibilities": [
-            "Conceptualized and developed a creative design application",
-            "Managed product development lifecycle and user feedback integration",
-            "Collaborated with artists to create unique digital brushes and tools"
+            "Developed and maintained an e-commerce platform for digital products",
+            "Implemented secure payment gateways and optimized checkout process",
+            "Managed inventory system and integrated with multiple shipping providers",
+            "Analyzed user behavior and implemented personalized product recommendations"
           ]
         },
         {
-          "title": "Tech Lead",
-          "company": "Kamfu.net",
-          "period": "2015 - 2018",
+          "title": "Software Engineer",
+          "company": "Innity Sdn Bhd",
+          "period": "2011 - 2022",
           "responsibilities": [
-            "Oversaw the development of a social networking platform for professionals",
-            "Implemented scalable architecture to support millions of users",
-            "Mentored junior developers and fostered a culture of continuous learning"
+            "Led the development of innovative digital advertising solutions",
+            "Implemented real-time bidding systems and programmatic advertising platforms",
+            "Optimized ad targeting algorithms to improve campaign performance and ROI",
+            "Developed analytics tools for tracking and reporting ad metrics across multiple channels"
           ]
         }
       ],
       "projects": [
-        { "id": 1, "title": "Project Alpha", "description": "An innovative web app for task management", "status": "active", "technologies": ["React", "Node.js", "MongoDB"] },
-        { "id": 2, "title": "Legacy System", "description": "Deprecated but noteworthy inventory management system", "status": "discontinued", "technologies": ["PHP", "MySQL"] },
-        { "id": 3, "title": "CloudNative", "description": "Microservices architecture for scalable applications", "status": "active", "technologies": ["Kubernetes", "Docker", "Go"] },
-        { "id": 4, "title": "AI Assistant", "description": "Natural language processing chatbot", "status": "active", "technologies": ["Python", "TensorFlow", "AWS"] }
+        { "id": 1, "title": "Python CMS", "description": "A content management system built with Python", "status": "active", "technologies": ["Python", "Django", "PostgreSQL"] },
+        { "id": 2, "title": "RPA Invoicing", "description": "Robotic Process Automation for streamlining invoice processing", "status": "active", "technologies": ["Python", "UiPath", "OCR"] },
+        { "id": 3, "title": "Laravel Ecommerce Seller Platform", "description": "A robust e-commerce platform for sellers built with Laravel", "status": "active", "technologies": ["PHP", "Laravel", "MySQL", "Vue.js"] },
+        { "id": 4, "title": "Laravel Advertising Rest API", "description": "RESTful API for advertising management", "status": "active", "technologies": ["PHP", "Laravel", "MySQL", "RESTful API"] },
+        { "id": 5, "title": "Ecommerce Marketplace Rest API", "description": "Scalable API for ecommerce marketplace operations", "status": "active", "technologies": ["PHP", "Laravel", "MySQL", "RESTful API"] },
+        { "id": 6, "title": "Advertising Self-Serve Platform", "description": "User-friendly platform for advertisers to manage campaigns", "status": "active", "technologies": ["React", "Node.js", "Express", "MongoDB"] },
+        { "id": 7, "title": "Advertising Banner Creator", "description": "Dynamic tool for creating and customizing ad banners", "status": "active", "technologies": ["JavaScript", "HTML5 Canvas", "CSS3"] },
+        { "id": 8, "title": "Sport Tournament Bracket Generator", "description": "A dynamic tool for creating and managing sports tournament brackets", "status": "active", "technologies": ["React", "TypeScript", "Node.js", "MongoDB"] },
+        { "id": 9, "title": "Real-time Tournament Scoring System", "description": "Live scoring and bracket updating system for sports tournaments", "status": "active", "technologies": ["Socket.io", "Express", "React", "MongoDB"] }
       ]
     };
 
